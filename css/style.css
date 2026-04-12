@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial;   
+    margin: 0;            
+}
+
+header {
+    background: #333;     
+    color: white;         
+    text-align: center;   
+    padding: 15px;        
+}
+
+nav {
+    background: #555;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a{
+    color: rgba(17, 9, 9, 0.986);
+    margin:20px;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: yellow;
+}
+
+
+main {
+    text-align: left;
+   padding: 100px; ;
+}
+
+
+footer {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 3px;
+}
+
+
+table {
+    width: 100%;
+    margin: auto;
+  border: 3px solid black;
+}
+
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+}
+
+
+button {
+    background: rgb(84, 160, 84);
+    color: white;
+    padding: 10px;
+    border: none;
+}
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;   /* كل لينك في سطر */
+        margin: 5px;
+    }
+
+}
